@@ -242,9 +242,6 @@ pnpm typecheck
 
 ![Admin users](./screenshots/admin-users.png)
 
-### Mobile View
-
-![Mobile view](./screenshots/mobile-view.png)
 
 ## Deployment
 
