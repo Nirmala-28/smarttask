@@ -313,26 +313,6 @@ function TasksView({
                 { label: "Descending", value: "desc" },
               ]}
             />
-            <Select
-              label="Method"
-              value={filters.algorithm}
-              onChange={(value) => onUpdateFilters({ algorithm: value as TaskFilters["algorithm"] })}
-              options={[
-                { label: "Merge sort", value: "merge" },
-                { label: "Quick sort", value: "quick" },
-              ]}
-            />
-            <Select
-              label="Page size"
-              value={String(filters.limit)}
-              onChange={(value) => onUpdateFilters({ limit: Number(value) })}
-              options={[
-                { label: "5 per page", value: "5" },
-                { label: "10 per page", value: "10" },
-                { label: "20 per page", value: "20" },
-                { label: "50 per page", value: "50" },
-              ]}
-            />
           </div>
         </div>
 
