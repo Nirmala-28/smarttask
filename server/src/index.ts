@@ -13,7 +13,7 @@ async function bootstrap() {
   await seedSuperAdmin();
 
   app.listen(port, () => {
-    console.log(`SmartTask API running on port ${port}`);
+    console.log(`SmartTask API running on port http://localhost:${port}`);
   });
 }
 
